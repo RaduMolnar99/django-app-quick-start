@@ -1,0 +1,10 @@
+version: '3'
+services:
+ db:
+   image: postgres:11
+   ports:
+     - "5433:5432"
+   environment:
+     POSTGRES_PASSWORD: LinnifyTeam2016
+     POSTGRES_USER: linnify
+     POSTGRES_DB: store
